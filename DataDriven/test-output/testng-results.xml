@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="4382" started-at="2020-02-24T21:47:44 CST" finished-at="2020-02-24T21:47:48 CST">
+    <groups>
+    </groups>
+    <test name="BankManager" duration-ms="4350" started-at="2020-02-24T21:47:44 CST" finished-at="2020-02-24T21:47:48 CST">
+      <class name="com.led.testcases.BankManager">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.led.testcases.BankManager@458c1321]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2020-02-24T21:47:44 CST" finished-at="2020-02-24T21:47:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="LogInAsBankManager()[pri:0, instance:com.led.testcases.BankManager@458c1321]" name="LogInAsBankManager" duration-ms="4282" started-at="2020-02-24T21:47:44 CST" finished-at="2020-02-24T21:47:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInAsBankManager -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.led.testcases.BankManager@458c1321]" name="AfterClass" is-config="true" duration-ms="1" started-at="2020-02-24T21:47:48 CST" finished-at="2020-02-24T21:47:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.led.testcases.BankManager -->
+    </test> <!-- BankManager -->
+    <test name="AddCustomerTest" duration-ms="7" started-at="2020-02-24T21:47:48 CST" finished-at="2020-02-24T21:47:48 CST">
+      <class name="com.led.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.led.testcases.AddCustomerTest@36b4cef0]" name="SetUp" is-config="true" duration-ms="180996" started-at="2020-02-24T21:44:43 CST" finished-at="2020-02-24T21:47:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addCustomer()[pri:0, instance:com.led.testcases.AddCustomerTest@36b4cef0]" name="addCustomer" duration-ms="1" started-at="2020-02-24T21:47:48 CST" finished-at="2020-02-24T21:47:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.led.testcases.AddCustomerTest@36b4cef0]" name="TearDown" is-config="true" duration-ms="88234" started-at="2020-02-24T21:47:48 CST" finished-at="2020-02-24T21:49:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.led.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

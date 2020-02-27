@@ -1,0 +1,14 @@
+24/02/2020 21:48:32 devpinoyLogger @BeforeSuite
+24/02/2020 21:48:32 devpinoyLogger SetUp: Execution Started.=====================================================================================
+24/02/2020 21:48:32 devpinoyLogger Executed in Chrome
+24/02/2020 21:48:48 devpinoyLogger Navigated to http://www.way2automation.com/protractor-angularjs-practice-website.html
+24/02/2020 21:48:49 devpinoyLogger BankManager Before Class
+24/02/2020 21:48:49 devpinoyLogger Element exists: "By.xpath: //h2[text()='Banking']"
+24/02/2020 21:48:49 devpinoyLogger Object was clicked: "By.xpath: //h2[text()='Banking']"
+24/02/2020 21:48:54 devpinoyLogger Element exists: "By.xpath: //button[text()='Bank Manager Login']"
+24/02/2020 21:48:54 devpinoyLogger Object was clicked: "By.xpath: //button[text()='Bank Manager Login']"
+24/02/2020 21:48:54 devpinoyLogger BankManager After Class
+24/02/2020 21:48:55 devpinoyLogger Element exists: "By.xpath: //button[contains(text(),'Add Customer')]"
+24/02/2020 21:48:55 devpinoyLogger Object was clicked: "By.xpath: //button[contains(text(),'Add Customer')]"
+24/02/2020 21:48:55 devpinoyLogger AfterSuite
+24/02/2020 21:48:55 devpinoyLogger TearDown: Execution Completed.=====================================================================================
