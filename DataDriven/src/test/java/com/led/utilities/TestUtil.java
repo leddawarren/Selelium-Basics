@@ -38,19 +38,21 @@ public class TestUtil extends TestBase {
 		int rows = excel.getRowCount(sheetName);
 		int cols = excel.getColumnCount(sheetName);
 
-		Object[][] data = new Object[rows - 1][1];
+		Object[][] data = new Object[rows - 1][cols];
 
 		Hashtable<String,String> table = null;
+//		table = new Hashtable<String,String>(); //enable here to perform get all data
 
 		for (int rowNum = 2; rowNum <= rows; rowNum++) { // 2
 
-			table = new Hashtable<String,String>();
+			table = new Hashtable<String,String>(); //enable here to perform single row
 
 			for (int colNum = 0; colNum < cols; colNum++) {
 
 				// data[0][0]
-				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));
-				data[rowNum - 2][0] = table;
+//				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));
+//				data[rowNum - 2][0] = table;
+				data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
 			}
 
 		}

@@ -26,7 +26,7 @@ public class BankManager extends TestBase{
 //		SwtichToParentWindow();
 	}
 		
-	@Test
+	@Test(invocationCount = 2)
 	public void LogInAsBankManager() {
 
 		Assert.assertTrue(clickElement(By.xpath(OR.getProperty("imgBanking"))));
@@ -35,7 +35,8 @@ public class BankManager extends TestBase{
 		
 		Assert.assertTrue(clickElement(By.xpath(OR.getProperty("btnMngrLogin"))));
 //		Assert.assertTrue(clickElement(By.xpath(OR.getProperty("btnAddCustomer"))));
-		
+		log.info("LogInAsBankManager");
+		System.out.println("LogInAsBankManager");
 	}
 
 
