@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.183">
+           time="0.207">
   <properties />
   
   
-            <testcase name="addCustomer" time="0.115" classname="com.led.testcases.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.068" classname="com.led.testcases.AddCustomerTest" />
+            <testcase name="addCustomer" time="0.145" classname="com.led.testcases.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.062" classname="com.led.testcases.AddCustomerTest" />
       
 </testsuite>

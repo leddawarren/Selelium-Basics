@@ -1,27 +1,21 @@
-28/02/2020 00:33:34 TEST @BeforeSuite
-28/02/2020 00:33:34 TEST SetUp: Execution Started.=====================================================================================
-28/02/2020 00:33:34 TEST Executed in Chrome
-28/02/2020 00:33:44 TEST Navigated to http://www.way2automation.com/protractor-angularjs-practice-website.html
-28/02/2020 00:33:45 TEST BankManager Before Class
-28/02/2020 00:33:46 TEST Element exists: "By.xpath: //h2[text()='Banking']"
-28/02/2020 00:33:46 TEST Object was clicked: "By.xpath: //h2[text()='Banking']"
-28/02/2020 00:33:48 TEST Element exists: "By.xpath: //button[text()='Bank Manager Login']"
-28/02/2020 00:33:48 TEST Object was clicked: "By.xpath: //button[text()='Bank Manager Login']"
-28/02/2020 00:33:48 TEST LogInAsBankManager
-28/02/2020 00:34:08 TEST Element does not exists: "By.xpath: //h2[text()='Banking']"
-28/02/2020 00:34:08 TEST Object was not clicked: "By.xpath: //h2[text()='Banking']"
-28/02/2020 00:34:08 TEST BankManager After Class
-28/02/2020 00:34:08 TEST AddCustomerTest Before Class
-28/02/2020 00:34:08 TEST Element exists: "By.xpath: //button[contains(text(),'Add Customer')]"
-28/02/2020 00:34:08 TEST Object was clicked: "By.xpath: //button[contains(text(),'Add Customer')]"
-28/02/2020 00:34:08 TEST Warren
-28/02/2020 00:34:08 TEST Ledda
-28/02/2020 00:34:08 TEST abs123
-28/02/2020 00:34:08 TEST Element exists: "By.xpath: //button[contains(text(),'Add Customer')]"
-28/02/2020 00:34:08 TEST Object was clicked: "By.xpath: //button[contains(text(),'Add Customer')]"
-28/02/2020 00:34:08 TEST Warren
-28/02/2020 00:34:08 TEST Ledda
-28/02/2020 00:34:08 TEST abs123
-28/02/2020 00:34:08 TEST AddCustomerTest After Class
-28/02/2020 00:34:09 TEST AfterSuite
-28/02/2020 00:34:09 TEST TearDown: Execution Completed.=====================================================================================
+06/03/2020 22:41:52 TEST @BeforeSuite
+06/03/2020 22:41:52 TEST SetUp: Execution Started.=====================================================================================
+06/03/2020 22:41:52 TEST Executed in Chrome
+06/03/2020 22:42:00 TEST Navigated to http://www.way2automation.com/protractor-angularjs-practice-website.html
+06/03/2020 22:42:01 TEST BankManager Before Class
+06/03/2020 22:42:02 TEST Element exists: "By.xpath: //h2[text()='Banking']"
+06/03/2020 22:42:02 TEST Object was clicked: "By.xpath: //h2[text()='Banking']"
+06/03/2020 22:42:04 TEST Element exists: "By.xpath: //button[text()='Bank Manager Login']"
+06/03/2020 22:42:04 TEST Object was clicked: "By.xpath: //button[text()='Bank Manager Login']"
+06/03/2020 22:42:04 TEST LogInAsBankManager
+06/03/2020 22:42:24 TEST Element does not exists: "By.xpath: //h2[text()='Banking']"
+06/03/2020 22:42:24 TEST Object was not clicked: "By.xpath: //h2[text()='Banking']"
+06/03/2020 22:42:24 TEST BankManager After Class
+06/03/2020 22:42:24 TEST AddCustomerTest Before Class
+06/03/2020 22:42:24 TEST Element exists: "By.xpath: //button[contains(text(),'Add Customer')]"
+06/03/2020 22:42:25 TEST Object was clicked: "By.xpath: //button[contains(text(),'Add Customer')]"
+06/03/2020 22:42:25 TEST Element exists: "By.xpath: //button[contains(text(),'Add Customer')]"
+06/03/2020 22:42:25 TEST Object was clicked: "By.xpath: //button[contains(text(),'Add Customer')]"
+06/03/2020 22:42:25 TEST AddCustomerTest After Class
+06/03/2020 22:42:25 TEST AfterSuite
+06/03/2020 22:42:25 TEST TearDown: Execution Completed.=====================================================================================

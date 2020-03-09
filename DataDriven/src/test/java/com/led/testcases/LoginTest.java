@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -103,7 +104,7 @@ public class LoginTest extends TestBase {
 	public void WebTables() throws InterruptedException {
 
 		Assert.assertTrue(clickElement(By.xpath(OR.getProperty("imgWebTables"))));
-		
+		Reporter.log("WebTables");
 		
 //		LoginTest aCall = new LoginTest();
 //		//

@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Passed: TC Name - LogInAsBankManager]]>
+    </line>
+    <line>
+      <![CDATA[Failed: TC Name - LogInAsBankManager]]>
+    </line>
+    <line>
+      <![CDATA[Warren]]>
+    </line>
+    <line>
+      <![CDATA[Ledda]]>
+    </line>
+    <line>
+      <![CDATA[abs123]]>
+    </line>
+    <line>
+      <![CDATA[Passed: TC Name - addCustomer]]>
+    </line>
+    <line>
+      <![CDATA[Warren]]>
+    </line>
+    <line>
+      <![CDATA[Ledda]]>
+    </line>
+    <line>
+      <![CDATA[abs123]]>
+    </line>
+    <line>
+      <![CDATA[Passed: TC Name - addCustomer]]>
+    </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="23739" started-at="2020-02-28T00:33:45 CST" finished-at="2020-02-28T00:34:09 CST">
+  <suite name="Data Driven Basics" duration-ms="23894" started-at="2020-03-06T22:42:01 CST" finished-at="2020-03-06T22:42:25 CST">
     <groups>
     </groups>
-    <test name="BankManager" duration-ms="22834" started-at="2020-02-28T00:33:45 CST" finished-at="2020-02-28T00:34:08 CST">
+    <test name="BankManager" duration-ms="22677" started-at="2020-03-06T22:42:01 CST" finished-at="2020-03-06T22:42:24 CST">
       <class name="com.led.testcases.BankManager">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.led.testcases.BankManager@120f102b]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-02-28T00:33:45 CST" finished-at="2020-02-28T00:33:45 CST">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.led.testcases.BankManager@625732]" name="BeforeClass" is-config="true" duration-ms="3" started-at="2020-03-06T22:42:01 CST" finished-at="2020-03-06T22:42:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="LogInAsBankManager()[pri:0, instance:com.led.testcases.BankManager@120f102b]" name="LogInAsBankManager" duration-ms="2663" started-at="2020-02-28T00:33:45 CST" finished-at="2020-02-28T00:33:48 CST">
+        <test-method status="PASS" signature="LogInAsBankManager()[pri:0, instance:com.led.testcases.BankManager@625732]" name="LogInAsBankManager" duration-ms="2473" started-at="2020-03-06T22:42:02 CST" finished-at="2020-03-06T22:42:04 CST">
           <reporter-output>
+            <line>
+              <![CDATA[Passed: TC Name - LogInAsBankManager]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LogInAsBankManager -->
-        <test-method status="FAIL" signature="LogInAsBankManager()[pri:0, instance:com.led.testcases.BankManager@120f102b]" name="LogInAsBankManager" duration-ms="20109" started-at="2020-02-28T00:33:48 CST" finished-at="2020-02-28T00:34:08 CST">
+        <test-method status="FAIL" signature="LogInAsBankManager()[pri:0, instance:com.led.testcases.BankManager@625732]" name="LogInAsBankManager" duration-ms="20101" started-at="2020-03-06T22:42:04 CST" finished-at="2020-03-06T22:42:24 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -59,25 +92,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Failed: TC Name - LogInAsBankManager]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LogInAsBankManager -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.led.testcases.BankManager@120f102b]" name="AfterClass" is-config="true" duration-ms="1" started-at="2020-02-28T00:34:08 CST" finished-at="2020-02-28T00:34:08 CST">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.led.testcases.BankManager@625732]" name="AfterClass" is-config="true" duration-ms="7" started-at="2020-03-06T22:42:24 CST" finished-at="2020-03-06T22:42:24 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
       </class> <!-- com.led.testcases.BankManager -->
     </test> <!-- BankManager -->
-    <test name="AddCustomerTest" duration-ms="867" started-at="2020-02-28T00:34:08 CST" finished-at="2020-02-28T00:34:09 CST">
+    <test name="AddCustomerTest" duration-ms="1009" started-at="2020-03-06T22:42:24 CST" finished-at="2020-03-06T22:42:25 CST">
       <class name="com.led.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.led.testcases.AddCustomerTest@29d89d5d]" name="SetUp" is-config="true" duration-ms="11346" started-at="2020-02-28T00:33:34 CST" finished-at="2020-02-28T00:33:45 CST">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.led.testcases.AddCustomerTest@3514a4c0]" name="SetUp" is-config="true" duration-ms="9086" started-at="2020-03-06T22:41:52 CST" finished-at="2020-03-06T22:42:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="BeforeClass2()[pri:0, instance:com.led.testcases.AddCustomerTest@29d89d5d]" name="BeforeClass2" is-config="true" duration-ms="0" started-at="2020-02-28T00:34:08 CST" finished-at="2020-02-28T00:34:08 CST">
+        <test-method status="PASS" signature="BeforeClass2()[pri:0, instance:com.led.testcases.AddCustomerTest@3514a4c0]" name="BeforeClass2" is-config="true" duration-ms="1" started-at="2020-03-06T22:42:24 CST" finished-at="2020-03-06T22:42:24 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass2 -->
-        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.led.testcases.AddCustomerTest@29d89d5d]" name="addCustomer" duration-ms="115" started-at="2020-02-28T00:34:08 CST" data-provider="dp" finished-at="2020-02-28T00:34:08 CST">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.led.testcases.AddCustomerTest@3514a4c0]" name="addCustomer" duration-ms="145" started-at="2020-03-06T22:42:24 CST" data-provider="dp" finished-at="2020-03-06T22:42:25 CST">
           <params>
             <param index="0">
               <value>
@@ -96,9 +132,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Warren]]>
+            </line>
+            <line>
+              <![CDATA[Ledda]]>
+            </line>
+            <line>
+              <![CDATA[abs123]]>
+            </line>
+            <line>
+              <![CDATA[Passed: TC Name - addCustomer]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.led.testcases.AddCustomerTest@29d89d5d]" name="addCustomer" duration-ms="68" started-at="2020-02-28T00:34:08 CST" data-provider="dp" finished-at="2020-02-28T00:34:08 CST">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.led.testcases.AddCustomerTest@3514a4c0]" name="addCustomer" duration-ms="62" started-at="2020-03-06T22:42:25 CST" data-provider="dp" finished-at="2020-03-06T22:42:25 CST">
           <params>
             <param index="0">
               <value>
@@ -117,13 +165,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Warren]]>
+            </line>
+            <line>
+              <![CDATA[Ledda]]>
+            </line>
+            <line>
+              <![CDATA[abs123]]>
+            </line>
+            <line>
+              <![CDATA[Passed: TC Name - addCustomer]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="AfterClass2()[pri:0, instance:com.led.testcases.AddCustomerTest@29d89d5d]" name="AfterClass2" is-config="true" duration-ms="652" started-at="2020-02-28T00:34:08 CST" finished-at="2020-02-28T00:34:09 CST">
+        <test-method status="PASS" signature="AfterClass2()[pri:0, instance:com.led.testcases.AddCustomerTest@3514a4c0]" name="AfterClass2" is-config="true" duration-ms="765" started-at="2020-03-06T22:42:25 CST" finished-at="2020-03-06T22:42:25 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass2 -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.led.testcases.AddCustomerTest@29d89d5d]" name="TearDown" is-config="true" duration-ms="6230" started-at="2020-02-28T00:34:09 CST" finished-at="2020-02-28T00:34:15 CST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.led.testcases.AddCustomerTest@3514a4c0]" name="TearDown" is-config="true" duration-ms="8173" started-at="2020-03-06T22:42:25 CST" finished-at="2020-03-06T22:42:34 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

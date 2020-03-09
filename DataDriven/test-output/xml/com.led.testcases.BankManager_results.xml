@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="22.772">
+           time="22.574">
   <properties />
-            <testcase name="LogInAsBankManager" time="20.109" classname="com.led.testcases.BankManager">
+            <testcase name="LogInAsBankManager" time="20.101" classname="com.led.testcases.BankManager">
                 <failure type="java.lang.AssertionError"
                   message="did not expect to find [true] but found [false]"
               >
@@ -50,6 +50,6 @@
           </testcase>
   
   
-            <testcase name="LogInAsBankManager" time="2.663" classname="com.led.testcases.BankManager" />
+            <testcase name="LogInAsBankManager" time="2.473" classname="com.led.testcases.BankManager" />
       
 </testsuite>
